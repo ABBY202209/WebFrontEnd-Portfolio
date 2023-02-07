@@ -4,35 +4,25 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         ,integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" ,crossorigin="anonymous">
     <!-- swiper's -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <!-- font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
     <!-- home -->
-    <div class="d-flex justify-content-center mb-3 kv ">
+    <div class="container-fluid d-flex justify-content-center mb-3 kv ">
         <div class="p-2 align-self-center text-white h-50 w-50 " id="text">
             <h1 class="display-1 text-center text-sm">Aigyptos</h1>
-            <p text-lg>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis magni aut ea cupiditate dolore
-                labore vel consequuntur iste, asperiores architecto.
-            <footer class="blockquote-footer text-end">From WWF's website</footer>
-            </p>
-            <p class="text-left">Left aligned text on all viewport sizes.</p>
-            <p class="text-center">Center aligned text on all viewport sizes.</p>
-            <p class="text-right">Right aligned text on all viewport sizes.</p>
-
-            <p class="text-sm-left">Left aligned text on viewports sized SM (small) or wider.</p>
-            <p class="text-md-left">Left aligned text on viewports sized MD (medium) or wider.</p>
-            <p class="text-lg-left">Left aligned text on viewports sized LG (large) or wider.</p>
-            <p class="text-xl-left">Left aligned text on viewports sized XL (extra-large) or wider.</p>
         </div>
     </div>
     <!-- nav -->
@@ -45,40 +35,43 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#section1">Link</a>
+                        <a class="nav-link" href="#section1">事前需知</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section2">Link</a>
+                        <a class="nav-link" href="#section2">景點介紹</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section3">Link</a>
+                        <a class="nav-link" href="#section3">相關資訊</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section3">聯絡我們</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <a class="navbar-brand e-4" href="#">Logo</a>
+        <a class="navbar-brand p-2 "href="#">Logo</a>
         <div class="p-2 bg-primary">Flex item 3</div>
     </div>
 
     <!-- header -->
-    <div class="container-fluid">
+    <div class="container">
 
         <div class="header">
-            <h1 class="mx-auto d-block text-center">EGYTP</h1>
+            <h1 class="display-1 mx-auto d-block text-center ">EGYTP</h1>
             <img src="./img/omar-elsharawy-pwMbtwA9LRc-unsplash.jpg" class="mx-auto mt-3 w-75 d-block ">
         </div>
 
     </div>
     <!-- main -->
-    <div class="container-fluid !direction !spacing">
+    <div class="container" id="section1">
         b5-row
 
-        <div class="row" id="section1">
+        <div class="row" >
             <div class="col"></div>
             <div class="col"></div>
         </div>
     </div>
-    <div class="container-fluid !direction !spacing" id="section2">
+    <div class="container-fluid " id="section2">
         <!-- Carousel -->
         <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
@@ -90,23 +83,23 @@
             </div>
 
             <!-- The slideshow/carousel -->
-            <div class="carousel-inner">
+            <div class="carousel-inner h-80 w-100">
                 <div class="carousel-item active">
-                    <img src="la.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                    <img src="./img/1.jpg" alt="Los Angeles" class="d-block" style="width: 100%; ">
                     <div class="carousel-caption">
                         <h3>Los Angeles</h3>
                         <p>We had such a great time in LA!</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="chicago.jpg" alt="Chicago" class="d-block" style="width:100%">
+                    <img src="./img/2.jpg" alt="Chicago" class="d-block" style="width: 100%;">
                     <div class="carousel-caption">
                         <h3>Chicago</h3>
                         <p>Thank you, Chicago!</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="ny.jpg" alt="New York" class="d-block" style="width:100%">
+                    <img src="./img/3.jpg" alt="New York" class="d-block" style="width: 100%;">
                     <div class="carousel-caption">
                         <h3>New York</h3>
                         <p>We love the Big Apple!</p>
@@ -124,49 +117,37 @@
         </div>
     </div>
     <!-- ajax -->
-    <div class="container-fluid !direction !spacing" id="section3">
-        <div class="row ">
+    <div class="container-fluid" id="section3">
+        <div class="row">
             <!-- b5-col -->
-            <div class="col-md-9">
-                <h2>Dark Striped Table</h2>
-                <p>Combine .table-dark and .table-striped to create a dark, striped table:</p>
-                <table class="table table-dark table-striped table-hover shadow p-1 mb-4 bg-white">
+            <div class="col col-md-9">
+                <h2 class="text-center mt-3 bg-dark text-white" id="myTable">航班即時離站資訊</h2>
+                <table class="table table-dark table-striped table-hover shadow p-1  bg-white">
                     <thead>
                         <tr>
-                            <th>Firstname</th>
-                            <th>Lastname</th>
-                            <th>Email</th>
+                            <th>no.</th>
+                            <th>航空公司</th>
+                            <th>預計出發時間</th>
+                            <th>預計抵達時間</th>
+                            <th>更新時間</th>
+                            <th>狀態</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>John</td>
-                            <td>Doe</td>
-                            <td>john@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>Mary</td>
-                            <td>Moe</td>
-                            <td>mary@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>July</td>
-                            <td>Dooley</td>
-                            <td>july@example.com</td>
-                        </tr>
+                    <tbody class="text-center">
+
                     </tbody>
                 </table>
             </div>
-            <div class="col-md-3">
+            <div class="col col-md-3">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7290587.856220914!2d26.373333512574927!3d26.844489053558146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14368976c35c36e9%3A0x2c45a00925c4c444!2z5Z-D5Y-K!5e0!3m2!1szh-TW!2stw!4v1675678568118!5m2!1szh-TW!2stw"
                     width="" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade" class="shadow p-1 mb-4 bg-white"></iframe>
+                    referrerpolicy="no-referrer-when-downgrade" class="shadow p-1  bg-white"></iframe>
             </div>
         </div>
     </div>
     <!-- footer -->
-    <div class="container-fluid !justify !shadow">
+    <div class="container ">
         <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
             b5-col
         </div>
@@ -175,7 +156,12 @@
 
     <!-- swiper's -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
+    <!-- jq -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"
+        integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- js -->
+    <script src="./js/js.js"></script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
