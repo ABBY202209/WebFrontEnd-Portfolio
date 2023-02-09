@@ -29,7 +29,7 @@ $(function () {
                 let updata =value.UpdateTime.substring(11, 16);
                 contentText += `
                     <tr>
-                        <th>${key + 1}</th>
+                        
                         <th>${value.AirLineCode}</th>
                         <th>${value.AirFlyStatus}</th>
                         <th>${edt}</th>
@@ -76,3 +76,6 @@ $(document).ready(function() {
       rows.slice((page - 1) * itemsPerPage, page * itemsPerPage).show();
     }
   });
+
+
+  
